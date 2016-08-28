@@ -1,0 +1,22 @@
+Phylomatic `Version 2' - on your desktop!
+
+NEW: multiple levels of nestedness in clade info for taxa to be matched
+     i.e. - not just Family Genus Species.  See sample taxa file.
+
+NEW: Preserves branch length info in reference tree.
+
+Sample reference trees:
+
+R20080417.new - Current phylomatic tree (see http://phylodiversity/phylomatic/)
+
+davies.bl.new - Jonathan Davies angiosperm supertree.
+
+Run with:
+
+../phylomatic -l -f R20080417.new -t eg_taxa
+
+(Note the -l switch needed for new lowercase phylomatic trees)
+
+FULL DOCUMENTATION coming.  Please be patient.
+
+PLEASE send bug reports to Cam: cwebb@oeb.harvard.edu

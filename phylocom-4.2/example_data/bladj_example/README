@@ -1,0 +1,3 @@
+NB - the taxa in the ages file must be interior nodes in the input
+tree.  If they correspond to terminals, the terminals will be dragged
+back to the interior age and the output tree will not be ultrametric.

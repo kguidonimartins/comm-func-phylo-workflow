@@ -1,0 +1,22 @@
+** phylocom.R - R-functions for incorporating phylocom **
+
+This is _not_ an R package.  You'll need to include
+source("phylocom.R") in any script that uses these function.
+
+No comprehensive documentation yet - sorry.  You'll need to look at the
+functions themselves to see the arguments they can take.  I suggest
+looking through and running the test.phylocom.R script in order to see
+how to use the functions:
+
+> source("test.phylocom.R", echo=T, print.eval = T)
+
+NB: the phylocom executable _must_ be in your path.  I.e., if you are
+still running phylocom as ./phylocom these script will not work as
+they are.  Check any basic unix book.  An alternative (and perhaps the
+only way to fix this on Windows) is to edit phylocom.R so that all the
+calls to "phylocom ..." are changed to "/path/to/phylocom ..."
+
+Cam (and later Steve and David)
+
+
+

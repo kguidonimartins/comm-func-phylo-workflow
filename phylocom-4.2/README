@@ -1,0 +1,40 @@
+** Welcome to phylocom, phylomatic and ecovolve! **
+
+    Installation instructions are in phylocom_manual.pdf
+
+TOP LEVEL DIRECTORIES
+
+      - mac/          OS X (Intel) binaries
+      - w32/          Windows (32-bit) binaries (double-click on phylocom.bat)
+      - src/          Source code (for compiling Linux version, or recompiling)
+      - R/            R-scripts to access phylocom routines as R functions
+      - example_data/ Example data files
+
+EXECUTABLES
+
+      - phylocom      Main application
+      - ecovolve      A phylogeny generator; use the -h switch for a brief help
+      - phylomatic    A standalone version of phylomatic (google it)
+
+EXAMPLE DATA
+
+      - phylo         The phylogeny - newick format
+      - sample        The samples from the pool (which corresponds to the  
+                        phylogeny spp)
+      - traits        Character traits for pool species
+      - ages          Ages for (some) named internal nodes, for bladj
+      - taxa          Input taxa for phylomatic,
+                        see README in phylomatic_example dir
+
+  bladj_example/
+
+    An ages file for making a pseudo-dated, ultrametric plant phylogeny
+
+  comnode_example/
+
+    Demonstration files for comnode
+
+  phylomatic_example/  
+
+    Files for running phylomatic on plant lists
+
