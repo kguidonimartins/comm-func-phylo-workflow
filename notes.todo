@@ -1,0 +1,23 @@
+
+ Leituras:
+   
+
+ Perguntas:
+
+--- ✄ -----------------------
+
+Keyboard shortcuts (this works only in Sublime Text 3)
+fold all topics --> ctrl + k, ctrl + 1
+unfold all topics --> ctrl + k, ctrl + j
+ctrl + shift + c --> comment and uncomment lines
+ctrl + shift + j --> git status
+ctrl + shift + q --> git add all
+ctrl + shift + e --> git quick commit
+ctrl + shift + y --> git push current branch
+ctrl + shift + g --> git quick (message with description)
+
+
+'ctrl + d' para 'feito'
+'alt + c' para 'cancelado'
+'-- + tab' para separar listas
+'crtl + shift + a' para arquivar listas
