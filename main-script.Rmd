@@ -293,6 +293,9 @@ plot(collapse.singles(get.tree.phylomatic), no.margin=TRUE)
 # getwd()
 # 
 # write.tree(get.tree.phylomatic, "tree-phylomatic")
+#
+# file.rename(from = "../example_data/bladj_example/wikstrom.ages",
+#            to = "ages")
 # 
 # dated.tree <- system("phylocom bladj -f tree-phylomatic > dated-tree",
 #                      intern = TRUE)
