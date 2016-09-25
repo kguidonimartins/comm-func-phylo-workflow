@@ -333,6 +333,26 @@ dated.clean <- read.newick(file = "data/dated.clean.txt")
 ```
 
 
+```{r}
+# Download de árvores e dadas alternativas
+# See: http://www.leep.ufv.br/pt-BR/noticia/pesquisadores-da-floresta-escola-lancam-artigo-cientifico-sobre-computacao-da-diversidade-filogenetica
+# See: http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1519-69842016000300619&lng=en&nrm=iso&tlng=en
+
+# nova.arvore <- "R20120829mod.new"
+# download.file("http://www.leep.ufv.br/Acoes/Download.php?tipo=Noticias&id=79",
+#               destfile = paste("tree-ages-gastauer/", nova.arvore))
+# 
+# log.ages <- "ages_logn.txt"
+# download.file("http://www.leep.ufv.br/Acoes/Download.php?tipo=Noticias&id=201",
+#               destfile = paste("tree-ages-gastauer/", log.ages))
+# 
+# exp.ages <- "ages_exp.txt"
+# download.file("http://www.leep.ufv.br/Acoes/Download.php?tipo=Noticias&id=203",
+#               destfile = paste("tree-ages-gastauer/", exp.ages))
+
+```
+
+
 ### Árvore filogenética datada
 
 
