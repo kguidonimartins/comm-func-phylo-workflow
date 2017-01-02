@@ -367,7 +367,7 @@ add.scale.bar(length = 100)
 # cophenetic.phylo(collapse.singles(dated.clean))
 ```
 
-
+<!--
 ## Organizando dados para análise funcional
 
 
@@ -389,4 +389,4 @@ Preparar output (matriz) para as análises.
 #            sheetName = "spp-list")
 
 ```
-
+-->
