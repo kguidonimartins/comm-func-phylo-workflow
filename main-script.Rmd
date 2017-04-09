@@ -34,7 +34,7 @@ if(!file.exists(out_dir)) {
 source("functions/ipak.R")
 ipak(packages <- c("readxl", "reshape2", "magrittr", "flora",
                    "data.table", "ape", "phytools", "brranching",
-                   "picante", "xlsx"))
+                   "picante"))
 ```
 
 
@@ -351,3 +351,9 @@ Preparar output (matriz) para as análises.
 
 ```
 -->
+
+
+```{r session-info}
+sessionInfo()
+```
+
