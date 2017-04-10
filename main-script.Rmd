@@ -292,7 +292,7 @@ plot(collapse.singles(get.tree.phylomatic), no.margin=TRUE)
 # source("functions/phylocom-workflow-win.R")
 
 # Workflow para datação da árvore no Linux
-# source("functions/phylocom-workflow-linux.R")
+source("functions/phylocom-workflow-linux.R")
 
 
 dated.clean <- read.newick(file = "data/dated.clean.txt")
