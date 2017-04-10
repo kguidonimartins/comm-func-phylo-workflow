@@ -42,7 +42,7 @@ if(!file.exists(out_dir)) {
 #        "brranching",
 #        "picante"))
 
-install.packages("packrat")
+# install.packages("packrat")
 library(packrat)
 packrat::restore()
 ```
