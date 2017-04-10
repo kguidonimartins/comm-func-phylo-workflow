@@ -31,20 +31,20 @@ if(!file.exists(out_dir)) {
 
 
 ```{r, message = FALSE}
-# source("functions/ipak.R")
-# ipak(c("readxl",
-#        "reshape2", 
-#        "magrittr", 
-#        "flora",
-#        "data.table", 
-#        "ape",
-#        "phytools",
-#        "brranching",
-#        "picante"))
+source("functions/ipak.R")
+ipak(c("readxl",
+       "reshape2",
+       "magrittr",
+       "flora",
+       "data.table",
+       "ape",
+       "phytools",
+       "brranching",
+       "picante"))
 
 # install.packages("packrat")
-library(packrat)
-packrat::restore()
+# library(packrat)
+# packrat::restore()
 ```
 
 
